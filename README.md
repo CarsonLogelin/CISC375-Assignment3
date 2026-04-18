@@ -55,3 +55,12 @@
 
 
         <img width="1460" height="877" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/f9173751-7a0f-4b4b-9ddd-e09f0179cc85" />
+
+# 2. Implement at least 2 refactor changes
+- ## misc.js
+    - Goal of creation was to clean up main.js
+    - Moved the getContrastColor and modifyString function from main.js to misc.js
+- ## settings.js
+    - Goal was to allocate most of the settings code to its own js file
+    - Moved the changePallette function from main.js to settings.js
+    - Took the code to add event listeners to the settings menu and turned the code into a function called addSettingsListener
